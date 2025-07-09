@@ -1,7 +1,9 @@
 name: testing-project
 on:
   push:
-    branches:  master
+    branches:  
+      - master
+      - main
 
 jobs:
   test:
